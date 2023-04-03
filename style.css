@@ -1,9 +1,18 @@
+* {
+    margin: auto;
+}
+
+
+body {
+    background: url("./images/bg\ a.jpg");
+}
+
+
 .brown-sugar {
     color: brown;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
-
 
 #table-yuk {
     margin-top: 20px;
@@ -12,4 +21,34 @@
     margin-left: 50px;
     background-color: aqua;
     padding: 20px;
+    display: block;
+}
+
+#box-head {
+    margin-top: 10px;
+    width: 900px;
+    background-color: white;
+    padding: 20px;
+}
+
+.box {
+    width: 400px;
+    background-color: bisque;
+    display: inline;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+p:first-letter {
+    font-size: xx-large;
+}
+
+div a {
+    color: black;
+}
+
+div a:hover {
+    color: red;
 }
